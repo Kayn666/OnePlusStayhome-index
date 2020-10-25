@@ -1,0 +1,238 @@
+html{
+    padding-bottom: 2rem;
+}
+
+.top{
+    width: 90%;
+    margin: 0 auto;
+    height: 1rem;
+    line-height: 1rem;
+    background: rgb(255,255,255);
+    text-align: center;
+}
+.top .iconzuo{
+    float: left;
+}
+.top span{
+    font-weight: bold;
+    color: rgb(79,84,94);
+}
+/*banner*/
+.my-swipe {
+    width: 100%;
+    height: 4.6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.van-swipe-item{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0.1rem;
+}
+.van-swipe-item > img{
+    width: 100%;
+    height: 4.6rem;
+    border-radius: 0.1rem;
+}
+/*民宿概况*/
+.hotelbase{
+    padding: 0 0.55rem;
+    margin: 0.5rem auto;
+}
+.titleBox{
+    width: 100%;
+    height: 1.05rem;
+}
+.titleBoxLeft{
+    float: left;
+}
+.title{
+    font-size: 0.4rem;
+    opacity: 0.9;
+}
+.tagBox{
+    margin-top: 0.05rem;
+    height: 0.4rem;
+}
+.tag{
+    float: left;
+    font-size: 0.2rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align: center;
+    border-radius: 0.05rem;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    color: #fff;
+    padding: 0.05rem;
+    margin-left: 0.2rem;
+}
+.tag:nth-child(1){
+    background: rgb(249,170,0);
+    margin-left: 0;
+}
+.tag:nth-child(2){
+    background: rgb(235,102,107);
+}
+.titleBoxRight{
+    float: right;
+}
+.supergood{
+    color: #fff;
+    width: 0.58rem;
+    height: 0.22rem;
+    border-top-right-radius: 0.08rem;
+    border-bottom-left-radius: 0.08rem;
+    border-top-left-radius: 0.08rem;
+    background: rgb(235,102,107);
+    font-size: 0.21rem;
+    line-height: 0.21rem;
+    letter-spacing: 0.01rem;
+    font-weight: bold;
+    position: relative;
+    right: -0.28rem;
+}
+.scoreBox{
+    width: 0.85rem;
+    height: 0.85rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.06rem 0.15rem 0
+    rgba(242, 242, 242, 0.8);
+    border-radius: 0.1rem;
+}
+.scoreBox .score{
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+.scoreBox div:last-child{
+    text-align: center;
+    line-height: 0.1rem;
+    color: #eb666b;
+    font-size: 0.4rem;
+}
+.equip{
+    width: 100%;
+    height: 1.14rem;
+    background-color: #f6f6f6;
+    border-radius: 0.08rem;
+    opacity: 0.6;
+    margin-top: 0.4rem;
+}
+.equipIn{
+    padding: 0.3rem 0.25rem;
+    width: 92%;
+    height: 0.6rem;
+}
+.equipIn li{
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.6;
+    float: left;
+    width: 1.8rem;
+}
+.equipIn li:nth-child(3n-1){
+    text-align: center;
+}
+.equipIn li:nth-child(3n){
+    float: right;
+}
+
+.notice{
+    margin: 0.2rem auto;
+}
+.notice h5{
+    color: #5e5e5e;
+    font-weight: bold;
+}
+.notice p{
+    color: #f8606a;
+    margin: 0.3rem;
+    font-weight: bold;
+}
+
+.dateBox{
+    height: 0.85rem;
+    margin-top: 0.3rem;
+}
+.enterBox,.leaveBox,.dateMid{
+    float: left;
+}
+.enterBox,.leaveBox{
+    width: auto;
+}
+.dateMid{
+    width: 1rem;
+    margin: 0 0.6rem;
+    text-align: center;
+}
+.dateMid p{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.65;
+    font-weight: bolder;
+    position: relative;
+    top: 0.2rem;
+}
+.dateMid img{
+    width: 1rem;
+    position: relative;
+    top: 0.1rem;
+}
+.enterBox > p , .leaveBox > p{
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.75;
+}
+.date span:first-child{
+    font-size: 0.52rem;
+    color: #000000;
+    opacity: 0.9;
+}
+.date span:last-child{
+    font-size: 0.26rem;
+    color: #f8606a;
+    opacity: 0.9;
+}
+.dateBox i{
+    position: relative;
+    top: 0.3rem;
+    float: right;
+}
+
+.discount{
+    margin-top: 0.2rem;
+}
+.discount1 .iconyouhuiquan,.discount1 span,.discount2 .iconhongbao,.discount2 div{
+    float: left;
+}
+.discount1 .iconyou,.discount2 .iconyou,.discount2 span{
+    float: right;
+}
+.discount1,.discount2{
+    height: 0.5rem;
+    margin-top: 0.2rem;
+}
+.discount2 div{
+    margin-right: 0.3rem;
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.65;
+    margin-left: 0.1rem;
+}
+.discount2 span{
+    margin-right: 0.3rem;
+    font-size: 0.26rem;
+    color: red;
+    opacity: 0.65;
+    margin-left: 0.1rem;
+}
+.discount1 span{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.65;
+    margin-left: 0.1rem;
+}
+

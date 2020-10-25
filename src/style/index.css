@@ -1,0 +1,298 @@
+/*banner*/
+.banner{
+    width: 100%;
+    height: 6rem;
+}
+.banner swiper-slide{
+    overflow: hidden;
+}
+.banner img{
+    height: 6rem;
+}
+.banner .swiper-pagination{
+    position: relative;
+    bottom: 2.2rem;
+    --swiper-theme-color: #ffffff;
+}
+/*查找*/
+.find{
+    width: 6.4rem;
+    height: 4rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 1.45rem;
+    border-radius: 5%;
+    background: #fff;
+    box-shadow: 0 0 0.1rem #888888;
+    z-index: 99;
+}
+.findform{
+    width: 5.42rem;
+    height: 2.35rem;
+    margin: 0 auto;
+    padding-top: 0.45rem;
+}
+.search{
+    width: 5.4rem;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+.search > input{
+    border: #888888;
+    width: 2.8rem;
+    height: 100%;
+    padding: 0;
+    font-size: 0.3rem;
+}
+.search > img{
+    width: 0.2rem;
+    height: 0.23rem;
+}
+.dateBox{
+    width: 5.4rem;
+    height: 0.8rem;
+    margin: 0 auto;
+}
+.dateBox .date {
+    width: 0.85rem;
+    height: 0.37rem;
+    font-size: 0.42rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.37rem;
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 0.9;
+    position: relative;
+    top: 0.2rem;
+}
+.dateBox .week{
+    width: 0.49rem;
+    height: 0.18rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.04rem;
+    letter-spacing: 0rem;
+    color: #f8606a;
+    opacity: 0.9;
+    position: relative;
+    top: 0.2rem;
+    right: 0.1rem;
+    margin-left: 0.2rem;
+}
+.dateBox img{
+    position: relative;
+    top: 0.2rem;
+    margin-left: 0.2rem;
+    right: 0.1rem;
+}
+.dateBox .during{
+    font-size: 0.1rem;
+    opacity: 0.6;
+    position: relative;
+    top: 0.2rem;
+}
+.findform button{
+    width: 100%;
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    background: #f8606a;
+    color: #fff;
+    border: none;
+    border-radius: 0.05rem;
+    height: 0.6rem;
+}
+.find > .ifo{
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+.find > .ifo > span{
+    font-size: 0.14rem;
+    color: #7f7f7f;
+}
+/*模块标题*/
+.title{
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+.title > span:nth-child(2){
+    color: rgb(237,117,122);
+}
+.subtitle{
+    color: #999999;
+    font-size: 0.3rem;
+}
+/*优选PRO*/
+.pro{
+    width: 6.4rem;
+    height: 6.32rem;
+    margin: 0 auto;
+}
+.pro .subtitle{
+    color: #5e5e5e;
+    font-weight: bolder;
+    opacity: 0.7
+}
+.pro .swiper-container{
+    width: 6rem;
+    height: 4rem;
+    border-radius: 5%;
+    margin-top: 0.2rem;
+}
+.pro .swiper-pagination{
+    --swiper-theme-color: #f8606a;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.pro .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.pro .swiper-pagination span{
+    margin-right: 0.2rem;
+}
+.imgword{
+    width: 90%;
+    height: 1.4rem;
+    position: relative;
+    bottom: 1.4rem;
+    margin: 0 auto;
+}
+.imgword .protitle{
+    font-size: 0.3rem;
+    color: #ffffff;
+    font-weight: bolder;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.imgword > img{
+    width: 0.3rem !important;
+    height: auto !important;
+}
+.imgword .address{
+    font-size: 0.3rem;
+    color: #ffffff;
+    float: left;
+}
+.imgword .price{
+    font-size: 0.4rem;
+    color: #ffffff;
+    float: right;
+    font-weight: bold;
+}
+.imgword .price span:first-child{
+    font-size: 0.2rem;
+}
+/*不得不睡*/
+.mustsleep{
+    width: 6.4rem;
+    height: 5.25rem;
+    margin: 0 auto;
+}
+.mustsleep .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0.2rem;
+}
+.mustsleep .swiper-slide{
+    margin-top: 0.1rem;
+    width: 5.3rem;
+    height: 4.67rem;
+    margin-right: 0.2rem;
+}
+.mustsleep .swiper-slide .msg{
+    width: 90%;
+    height: 2rem;
+    margin: 0 auto;
+}
+.mustsleep .swiper-pagination{
+    --swiper-theme-color: #f8606a;
+}
+.mustsleep .swiper-slide img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.2rem;
+}
+.mustsleep .msg-title{
+    font-size: 0.35rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.mustsleep .msg-msg{
+    font-size: 0.3rem;
+    color: #888888;
+    margin: 0.1rem 0;
+}
+.mustsleep .tag-tag{
+    width: 0.8rem;
+    height: 0.4rem;
+    text-align: center;
+    float: left;
+    margin-right: 0.15rem;
+    color: #ffffff;
+    font-size: 0.25rem;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+.mustsleep .tag-tag:first-child{
+    background: rgb(241,80,95);
+}
+.mustsleep .tag-tag:last-child{
+    background: rgb(249,170,0);
+}
+/*不得不说*/
+.mustsay{
+    width: 6.4rem;
+    margin: 1rem auto 0.2rem;
+}
+.sofa{
+    margin: 0.5rem auto 0;
+}
+.sofa img{
+    width: 85%;
+}
+/*不得不看*/
+.mustsee{
+    width: 6.5rem;
+    margin: 0 auto;
+    padding-bottom: 1.3rem;
+}
+.mustsee-img{
+    width: 3rem
+}
+.mustsee-star{
+    width: 0.2rem
+}
+.mustseebox{
+    width: 6.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.mustsee-item{
+    width: 3rem;
+    float: left;
+    /*margin-left: 0.2rem;*/
+    margin-top: 0.5rem;
+}
+.mustsee .hotelName{
+    font-size: 0.5rem;
+    color: rgb(114,118,127);
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.mustsee .price{
+    color: #f8606a;
+    font-size: 0.4rem;
+    margin: 0 0.15rem;
+}
+.mustsee-item span:nth-of-type(2),.mustsee-item span:nth-of-type(3),.mustsee-item span:nth-of-type(5){
+    font-size: 0.3rem;
+}

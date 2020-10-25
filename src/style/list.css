@@ -1,0 +1,69 @@
+/*.list-box{*/
+/*    padding-top: 1.8rem;*/
+/*}*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    height: 1.2rem;
+    background: #fff;
+}
+.nav li{
+    width: 1.35rem;
+    height: 0.63rem;
+    border-radius: 0.32rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.nav li.active{
+    background: #eb666b;
+    box-shadow: 0 0.12rem 0.3rem 0
+    rgba(235, 102, 107, 0.5);
+    color: #ffffff;
+}
+.list{
+    padding: 0 0.25rem;
+}
+
+.mustsee{
+    width: 6.5rem;
+    margin: 0 auto;
+}
+.mustsee-img{
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.1rem;
+}
+.mustsee-star{
+    width: 0.2rem
+}
+.mustseebox{
+    width: 6.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.mustsee-item{
+    width: 3rem;
+    float: left;
+    /*margin-left: 0.2rem;*/
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.mustsee .hotelName{
+    font-size: 0.5rem;
+    color: rgb(114,118,127);
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.mustsee .price{
+    color: #f8606a;
+    font-size: 0.4rem;
+    margin: 0 0.15rem;
+}
+.mustsee-item span:nth-of-type(2),.mustsee-item span:nth-of-type(3),.mustsee-item span:nth-of-type(5){
+    font-size: 0.3rem;
+}

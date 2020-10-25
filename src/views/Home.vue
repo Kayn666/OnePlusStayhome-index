@@ -1,18 +1,30 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div>
+        <p @click="handleclick">
+            {{msg}}
+        </p>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+    import store from "../store/store";
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'Home',
+        data(){
+            return{
+
+            }
+        },
+        computed:{
+            msg(){
+                return store.msg
+            }
+        },
+        methods:{
+            handleclick(){
+                store.msg = '修改后的值'
+            }
+        }
+    }
 </script>
